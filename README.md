@@ -8,6 +8,30 @@ Investigate whether audio features such as danceability, energy, tempo, valence,
 
 ---
 
+## Dataset Description
+
+This project uses a public Spotify dataset containing over 100,000 tracks. The dataset includes track metadata, genre information, Spotify popularity scores, and audio features.
+
+The target variable is:
+
+- **Popularity**: Spotify's track popularity score ranging from 0 to 100, where higher values indicate more popular tracks.
+
+Key audio features used for prediction include:
+
+| Feature | Description |
+|---|---|
+| Danceability | How suitable a track is for dancing based on rhythm and tempo |
+| Energy | Measure of intensity and activity of a track |
+| Valence | Measure of musical positivity (higher values indicate happier sounds) |
+| Tempo | Track speed measured in beats per minute (BPM) |
+| Acousticness | Likelihood that a track is acoustic |
+| Instrumentalness | Likelihood that a track contains no vocals |
+| Speechiness | Presence of spoken words in a track |
+| Loudness | Overall loudness measured in decibels |
+| Liveness | Likelihood that a track was performed live |
+
+---
+
 ## Exploratory Data Analysis
 
 ### Spotify Popularity Distribution
