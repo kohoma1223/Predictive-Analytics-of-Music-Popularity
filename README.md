@@ -54,7 +54,7 @@ The Random Forest classification model achieved stronger predictive performance 
 
 The Random Forest model was used to identify which audio characteristics contributed most to popularity predictions.
 
-![Feature Importance](feature_importance.png)
+![Feature Importance](top10_features.png)
 
 ---
 
