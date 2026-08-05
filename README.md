@@ -66,11 +66,11 @@ Two machine learning approaches were used:
 
 ---
 
-## Model Performance Comparison
+## Predictive Model Performance Comparison
 
-![Model Comparison](model_comparison.png)
+Linear Regression was evaluated using R², while Random Forest Classification was evaluated using accuracy. The Random Forest model achieved stronger predictive performance, reaching **77% accuracy** when predicting popularity categories.
 
-The Random Forest classification model achieved stronger predictive performance compared to the regression approach.
+![Model Comparison](images/model_comparison.png)
 
 ---
 
