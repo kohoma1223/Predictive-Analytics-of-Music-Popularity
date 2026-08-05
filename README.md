@@ -10,6 +10,13 @@ Investigate whether audio features such as danceability, energy, tempo, valence,
 
 ## Exploratory Data Analysis
 
+### Spotify Popularity Distribution
+
+To understand the distribution of track popularity scores, I analyzed the frequency of songs across different popularity levels. This helped determine the structure of the target variable and informed the creation of popularity categories for classification.
+
+![Popularity Distribution](Popularity_Distribution.png)
+
+
 ### Audio Feature Correlation with Popularity
 
 To understand relationships between audio characteristics and popularity, I calculated correlations between numerical audio features and Spotify popularity scores.
